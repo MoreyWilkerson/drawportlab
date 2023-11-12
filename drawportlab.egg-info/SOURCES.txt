@@ -1,0 +1,10 @@
+README.md
+setup.py
+drawportlab/SheetFormat.py
+drawportlab/__init__.py
+drawportlab/draw.py
+drawportlab/shapes.py
+drawportlab.egg-info/PKG-INFO
+drawportlab.egg-info/SOURCES.txt
+drawportlab.egg-info/dependency_links.txt
+drawportlab.egg-info/top_level.txt
