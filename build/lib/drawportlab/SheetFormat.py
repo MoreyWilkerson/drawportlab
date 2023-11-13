@@ -17,7 +17,7 @@ def sheetformat(c, Page,Title, matrix):
      # Horizontal
      c.line(.25*inch,2 *inch ,16.75 * inch ,2*inch)
      c.line(6.4375*inch,.855 *inch ,8.625 * inch ,.855 *inch)
- # THAT row 
+ # Title block
      c.line(10.625*inch,.4164*inch , 12.5*inch,.4164*inch)
      c.line(10.625*inch,.5467*inch , 12.5*inch,.5467*inch)
      c.line(10.625*inch,.6767*inch , 12.5*inch,.6767*inch)
@@ -40,7 +40,6 @@ def sheetformat(c, Page,Title, matrix):
      c.line(15.922*inch,.6138*inch , 15.922*inch,.25*inch)  
  # Draw a rectangle
      c.rect(0.25*inch,0.25*inch,16.5*inch,10.5*inch, fill=0)
-
  # Section 1 
      c.drawString(12.55*inch, .3842*inch, "Project No: ")
      c.drawString((12.55+.0625)*inch+c.stringWidth("project No:"), .3842*inch,matrix[0])
@@ -68,6 +67,6 @@ def sheetformat(c, Page,Title, matrix):
      c.drawString(10.675*inch, 1.49*inch, "DESIGN DWG: MEW ")
      c.drawString(10.675*inch, 1.90*inch, "Client Signature:  ")
  # image
-     c.drawInlineImage("pythonlogo.jpg",0.27*inch,0.27*inch,6.1 *inch,1.7 * inch)
-       #6.4357 *inch, 2 * inch     
+     #c.drawInlineImage("drawportlab/images/pythonlogo.jpg",0.27*inch,0.27*inch,6.1 *inch,1.7 * inch)
+ 
      c.setFont("Times-Roman", 12) 

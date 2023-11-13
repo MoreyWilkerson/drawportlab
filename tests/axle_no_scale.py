@@ -1,8 +1,9 @@
 
 from reportlab.pdfgen import canvas
 from reportlab.lib.units import inch
-import SheetFormat
-import draw
+from drawportlab import SheetFormat
+from drawportlab import draw
+
 
 c = canvas.Canvas("axle_noscale.pdf",pagesize =(17*inch, 11*inch)) #page format
 

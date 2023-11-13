@@ -7,4 +7,5 @@ drawportlab/shapes.py
 drawportlab.egg-info/PKG-INFO
 drawportlab.egg-info/SOURCES.txt
 drawportlab.egg-info/dependency_links.txt
+drawportlab.egg-info/requires.txt
 drawportlab.egg-info/top_level.txt
